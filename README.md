@@ -1,14 +1,14 @@
 ## Reproduction
 
-```sh
-# 1. Navigate to the new project
+```
+# 1. Navigate to the project
 cd my-app
 
 # 2. Start server (runs on http://localhost:4000) and open GraphQL Playground
 yarn dev
 ```
 yields the error: 
-```sh
+```
     return new TSError(diagnosticText, diagnosticCodes)
            ^
 TSError: ⨯ Unable to compile TypeScript:
